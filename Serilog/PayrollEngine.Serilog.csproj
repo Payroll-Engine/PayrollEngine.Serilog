@@ -12,10 +12,11 @@
 	<!-- help file generation -->
 	<PropertyGroup>
 		<DocumentationFile>$(AssemblyName).xml</DocumentationFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-pre-230523-2" />
+		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-pre-230526" />
 		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
 		<PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2" />
 		<PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
@@ -29,6 +30,12 @@
 		<None Include="$(OutputDir)*.schema.json" Pack="true">
 			<PackageCopyToOutput>true</PackageCopyToOutput>
 		</None>
+	</ItemGroup>
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 
 	<!-- publish package -->
