@@ -5,6 +5,7 @@
 		<RootNamespace>PayrollEngine.Serilog</RootNamespace>
 		<Authors>Jani Giannoudis</Authors>
 		<Company>Software Consulting Giannoudis</Company>
+		<Copyright>2023 Software Consulting Giannoudis</Copyright>
 		<Product>Payroll Engine</Product>
 		<Description>Payroll Engine Serilog Services</Description>
 	</PropertyGroup>
@@ -16,7 +17,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-pre-230526" />
+		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-pre-230527" />
 		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
 		<PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2" />
 		<PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />

@@ -1,7 +1,7 @@
-# PayrollEngine.Serilog
-Serilog extension for the [PayrollEngine.Core](https://github.com/Payroll-Engine/PayrollEngine.Core) logger.
+<h1>Payroll Engine Serilog</h1>
+
+Serilog extension for the Payroll Engine.
 
 ## Build
-Runtime environment variables:
-
+Supported runtime environment variables:
 - *PayrollEnginePackageDir* - the NuGet package target direcotry (optional)
