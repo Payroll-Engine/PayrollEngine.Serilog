@@ -13,10 +13,10 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-pre-230628-d" />
-		<PackageReference Include="Serilog.AspNetCore" Version="6.1.0" />
+		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-pre-230629-2" />
+		<PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
 		<PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2" />
-		<PackageReference Include="Serilog.Settings.Configuration" Version="3.4.0" />
+		<PackageReference Include="Serilog.Settings.Configuration" Version="7.0.0" />
 	</ItemGroup>
 
 	<!-- include xml documention files and json schemas to the nuget package -->
