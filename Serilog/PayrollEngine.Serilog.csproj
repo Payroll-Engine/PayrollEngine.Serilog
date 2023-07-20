@@ -13,7 +13,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-230720-2" />
+		<PackageReference Include="PayrollEngine.Core" Version="0.5.0-230720-3" />
 		<PackageReference Include="Serilog.AspNetCore" Version="7.0.0" />
 		<PackageReference Include="Serilog.Settings.AppSettings" Version="2.2.2" />
 		<PackageReference Include="Serilog.Settings.Configuration" Version="7.0.0" />
