@@ -4,4 +4,4 @@ Serilog extension for the Payroll Engine.
 
 ## Build
 Supported runtime environment variables:
-- *PayrollEnginePackageDir* - the NuGet package target direcotry (optional)
+- *PayrollEnginePackageDir* - the NuGet package destination directory (optional)
