@@ -1,4 +1,4 @@
-<h1>Payroll Engine Serilog</h1>
+# Payroll Engine Serilog
 
 Serilog extension for the Payroll Engine.
 
