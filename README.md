@@ -1,4 +1,5 @@
 # Payroll Engine Serilog
+👉 This repository is part of the [Payroll Engine](https://github.com/Payroll-Engine/PayrollEngine/wiki).
 
 Serilog extension for the Payroll Engine.
 
